@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int M[10];
+    int sum=0;
+    int j;
+    
+    cout<<"Enter 10 integers "<<endl;
+    for(j=0; j<10; j++){
+    
+    cin>>M[j];
+    }
+    
+    for(j=0; j<9; j++)
+    {
+    if(j==3 && j==5){
+       continue;
+    }
+    }
+    cout<<"Your Numbers Sum Except index 3 and 5"<<endl;
+    {
+    for(j=0;j<9;j++)
+    sum=sum+M[j];
+    cout<<sum<<endl;
+    }
+    
+    return 0;
+}
