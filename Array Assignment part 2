@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int M[10];
+    int j;
+    
+    cout<<"Enter 10 integers "<<endl;
+    for(j=0; j<10; j++){
+    cin>>M[j];
+    };
+    
+    cout<<"Reverse Numbers Are "<<endl;
+    
+    for(j=9; j>=0; j--){
+       cout<<M[j]<<endl;
+    };
+    return 0;
+}
